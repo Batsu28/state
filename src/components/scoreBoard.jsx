@@ -1,9 +1,9 @@
-import TableHead from "./scoreboard/table";
+import Table from "./scoreboard/table";
 
 export default function Scoreboard() {
-  return (
-    <div>
-      <TableHead />
-    </div>
-  );
+	return (
+		<div>
+			<Table />
+		</div>
+	);
 }
