@@ -1,0 +1,31 @@
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+}
+.calc {
+  display: flex;
+  flex-direction: column;
+}
+.number {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.operator {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+}
+.all_btns {
+  display: flex;
+}
+.sum_btn {
+  width: 400px;
+}
