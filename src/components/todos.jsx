@@ -19,7 +19,7 @@ export default function Todos() {
 
   return (
     <div className="todos">
-      <div className="input">
+      <div className="addTodo">
         <input type="text" onChange={inputVal} />
         <button onClick={addTodos}>add</button>
       </div>

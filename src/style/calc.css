@@ -1,4 +1,4 @@
-button {
+.all_btns button {
   width: 100px;
   height: 50px;
   font-size: 30px;
@@ -18,7 +18,7 @@ button {
   display: flex;
   flex-direction: column;
 }
-input {
+.calc input {
   width: 400px;
   height: 50px;
   font-size: 20px;
@@ -26,6 +26,8 @@ input {
 .all_btns {
   display: flex;
 }
-.sum_btn {
+.clear_btn {
   width: 400px;
+  height: 50px;
+  font-size: 30px;
 }
